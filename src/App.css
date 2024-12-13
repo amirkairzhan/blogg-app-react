@@ -1,0 +1,115 @@
+.container {
+    font-family: "Pacifico", cursive;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 1200px;
+    display: flex;
+    gap: 100px;
+}
+
+/*Create Section*/
+.create__section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    height: max-content;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.head__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.input__title,
+.input__body {
+    padding: 5px 20px;
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    background: none;
+    box-sizing: border-box;
+}
+
+
+/*Posts Section*/
+.posts__section {
+    padding: 20px;
+    width: 600px;
+    height: max-content;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.posts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.post__time {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.post__title {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.post__body {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+/*Buttons*/
+button {
+    font-weight: bold;
+    border: none;
+    border-radius: 0.75em;
+}
+
+.create__btn,
+.delete__btn {
+    display: block;
+    border: 2px solid #000000;
+    border-radius: 0.75em;
+    color: #000000;
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+    background: linear-gradient(45deg, #FF5F6D, #FFC371);
+}
+
+.create__btn:hover {
+    transform: translateY(-0.33em);
+}
+
+.create__btn:active {
+    transform: translateY(0);
+}
+
+.create__btn {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+}
+
+.delete__btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/*Error Message*/
+.error__message {
+    color: red;
+}
